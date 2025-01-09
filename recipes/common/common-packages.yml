@@ -1,0 +1,13 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/rpm-ostree.json
+type: rpm-ostree
+remove:
+  - firefox
+  - firefox-langpacks
+  - plasma-welcome
+  - plasma-welcome-fedora
+  - plasma-discover-rpm-ostree
+install:
+  - fastfetch
+  - oxygen-sounds
+  - distrobox

@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "jehuamanna@gmail.com",
+                "Name": "Jehu Shalom Amanna"
+            }
+        ],
+        "Id": "jehuamanna",
+        "License": "LGPLv3",
+        "Name": "Jehu Shalom Amanna"
+    }
+}

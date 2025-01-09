@@ -1,0 +1,17 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# image will be published to ghcr.io/<user>/<name>
+name: imba-os-nvidia
+# description will be included in the image's metadata
+description: An atomic Linux distro based on Fedora cosmic-atomic optimized for productivity and ease of use. (Proprietary Nvidia drivers included)
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: quay.io/fedora-ostree-desktops/cosmic-atomic
+image-version: 41 # latest is also supported if you want new updates ASAP
+
+# module configuration, executed in order
+# you can include multiple instances of the same module
+modules:
+  - from-file: common/common-modules.yml
+  - from-file: nvidia/nvidia-modules.yml
+  - from-file: final-modules.yml
