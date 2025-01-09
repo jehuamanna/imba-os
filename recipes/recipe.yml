@@ -6,7 +6,7 @@ name: imba-os
 description: IMBA The Next Generation Console Gaming Operating System.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: quay.io/fedora-ostree-desktops/cosmic-atomic
+base-image: quay.io/fedora-ostree-desktops/sway-atomic
 image-version: 41 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order

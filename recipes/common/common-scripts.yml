@@ -5,6 +5,8 @@ scripts:
   - symlinks.sh
   - image_name.sh
   - disable_autostarts.sh
+  - update-package-build-issues.sh
+  - download-repos.sh
   - steam_lutris_others.sh
 snippets:
   # Remove boot watermark
