@@ -76,7 +76,7 @@ install:
   - switcheroo-control
 
 replace:
-  - from-repo: fedora
+  - from-repo: updates
     packages:
       - cups-filesystem
       - cups-libs
