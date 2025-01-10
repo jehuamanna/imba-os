@@ -29,8 +29,10 @@ replace:
     packages:
       - cups-filesystem
       - openssl-libs
+      - openssl-libs.i686
 
 install:
+  - openssl-libs.i686
   - libevent
   - cups-filesystem
   - cups-libs
