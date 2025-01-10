@@ -24,6 +24,12 @@ repos:
   - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
   - https://negativo17.org/repos/fedora-multimedia.repo
 
+replace:
+  - from-repo: updates
+    packages:
+      - cups-filesystem
+      - cups-libs
+
 install:
   - lutris
   - umu-launcher
@@ -75,8 +81,3 @@ install:
   - steam
   - switcheroo-control
 
-replace:
-  - from-repo: updates
-    packages:
-      - cups-filesystem
-      - cups-libs
