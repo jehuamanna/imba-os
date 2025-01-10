@@ -74,3 +74,9 @@ install:
   - clinfo
   - steam
   - switcheroo-control
+
+replace:
+  - from-repo: fedora
+    packages:
+      - cups-filesystem
+      - cups-libs
