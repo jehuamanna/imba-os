@@ -24,6 +24,12 @@ repos:
   - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
   - https://negativo17.org/repos/fedora-multimedia.repo
 
+replace:
+  - from-repo: updates
+    packages:
+      - cups-filesystem
+      - openssl-libs
+
 install:
   - libevent
   - cups-filesystem
