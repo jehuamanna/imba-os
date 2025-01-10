@@ -31,7 +31,11 @@ repos:
 #       - openssl-libs
 #       - openssl-libs.i686
 
+remove:
+  - libva
+
 install:
+  - libva
   - openssl-libs.i686
   - libevent
   - cups-filesystem
