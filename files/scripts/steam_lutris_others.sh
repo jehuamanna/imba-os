@@ -20,6 +20,7 @@ rpm-ostree install \
     cp /usr/lib/dri/swrast_dri.so /tmp/mesa-fix32/dri/ && \
     cp /usr/lib/dri/virtio_gpu_dri.so /tmp/mesa-fix32/dri/ && \
     
+    
 rsync -a /tmp/mesa-fix64/ /usr/lib64/ && \
 rsync -a /tmp/mesa-fix32/ /usr/lib/ && \
 rm -rf /tmp/mesa-fix64 && \
