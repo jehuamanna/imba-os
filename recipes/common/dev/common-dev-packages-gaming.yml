@@ -24,12 +24,12 @@ repos:
   - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
   - https://negativo17.org/repos/fedora-multimedia.repo
 
-replace:
-  - from-repo: updates
-    packages:
-      - cups-filesystem
-      - openssl-libs
-      - openssl-libs.i686
+# replace:
+#   - from-repo: updates
+#     packages:
+#       - cups-filesystem
+#       - openssl-libs
+#       - openssl-libs.i686
 
 install:
   - openssl-libs.i686
