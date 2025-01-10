@@ -85,6 +85,11 @@ rpm-ostree override replace \
     rpm-ostree override replace \
     --experimental \
     --from repo=updates \
+        cups-filesystem \
+        || true && \
+    rpm-ostree override replace \
+    --experimental \
+    --from repo=updates \
         cups-libs \
         || true && \
     rpm-ostree override replace \
