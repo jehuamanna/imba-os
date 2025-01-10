@@ -3,4 +3,4 @@
 type: script
 scripts:
   - initial-scripts.sh
-  # - update-package-build-issues.sh
+  - update-package-build-issues.sh
