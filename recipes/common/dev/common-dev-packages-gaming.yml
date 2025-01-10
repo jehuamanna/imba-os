@@ -31,6 +31,8 @@ replace:
       - cups-libs
 
 install:
+  - cups-filesystem
+  - cups-libs
   - lutris
   - umu-launcher
   - wine-core.x86_64
