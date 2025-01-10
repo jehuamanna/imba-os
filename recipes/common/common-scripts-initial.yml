@@ -1,0 +1,6 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/modules/script.json
+type: script
+scripts:
+  - initial-scripts.sh
+  - update-package-build-issues.sh

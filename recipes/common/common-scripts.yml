@@ -5,7 +5,6 @@ scripts:
   - symlinks.sh
   - image_name.sh
   - disable_autostarts.sh
-  - update-package-build-issues.sh
   - download-repos.sh
   - steam_lutris_others.sh
 snippets:
@@ -13,4 +12,4 @@ snippets:
   - "rm /usr/share/plymouth/themes/spinner/watermark.png"
 
   # Hide fedora logo on sddm
-  - "sed -i 's/showlogo=shown/showlogo=hidden/' /usr/share/sddm/themes/01-breeze-fedora/theme.conf"
+  # - "sed -i 's/showlogo=shown/showlogo=hidden/' /usr/share/sddm/themes/01-breeze-fedora/theme.conf"
