@@ -28,6 +28,7 @@ replace:
   - from-repo: updates
     packages:
     - libva
+    - mesa-vulkan-drivers
 
 
 
