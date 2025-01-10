@@ -29,6 +29,7 @@ replace:
     packages:
       - cups-filesystem
       - cups-libs
+      - libevent
 
 install:
   - cups-filesystem
