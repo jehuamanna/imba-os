@@ -37,8 +37,8 @@ sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/rpmfusion-*.repo
         pipewire-pulseaudio \
         pipewire-utils \
         pipewire-plugin-libcamera \
-        bluez \
-        bluez-obexd \
-        bluez-cups \
-        bluez-libs \
+        # bluez \
+        # bluez-obexd \
+        # bluez-cups \
+        # bluez-libs \
         xorg-x11-server-Xwayland
